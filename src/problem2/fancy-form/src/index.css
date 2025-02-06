@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#1B202A] text-[#717A8C];
+}
+
+.field-group {
+  @apply rounded-xl px-3 py-2 bg-[#2B3342] flex items-center gap-x-1;
+}
+
+input {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
